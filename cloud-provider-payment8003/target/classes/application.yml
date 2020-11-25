@@ -1,0 +1,10 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: cloud-provider-payment
+  cloud:
+    zookeeper:
+      # zk地址，此处是集群的话，使用逗号隔开
+      connect-string: 192.168.76.131:2181
